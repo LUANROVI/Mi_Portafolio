@@ -1,0 +1,24 @@
+* {
+   
+}
+header{
+    font-family: 'Montserrat', sans-serif;
+}
+#nombre {
+    margin: 40px 40px 0px;
+    color: black;
+    font-size: 36px;
+}
+#cargo {
+    margin: 10px 40px;
+    color: #777777;
+    font-size: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}

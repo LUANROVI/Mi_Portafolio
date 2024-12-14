@@ -1,0 +1,18 @@
+OBJETVO DEL PROYECTO
+
+¿Qué quiero lograr con mi página personal?
+Presentar mis proyectos, ofrecer servicios, contactar clientes potenciales.
+
+¿Quién es mi audiencia?
+Reclutadores, clientes freelance, colegas.
+
+
+REQUISITOS
+
+- Portafolio para mostrar proyectos
+- formulario de contacto para comunicacion por medio de la pagina
+- opcion para descargar mi CV
+– Breve biografía y foto, logo o avatar
+– Experiencia y habilidades relevantes con contexto
+– Código fuente documentado
+– Certificados

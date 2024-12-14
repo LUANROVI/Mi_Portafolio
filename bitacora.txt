@@ -1,0 +1,1 @@
+7dic24: terminado parte o (por completo) el header, más explicitamente el Nombre (mio) y cargo.
