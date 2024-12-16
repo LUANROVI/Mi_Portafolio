@@ -1,21 +1,49 @@
-header{
+header {
     font-family: 'Montserrat', sans-serif;
+    display: flex; /* Alineación horizontal de elementos */
+    justify-content: space-between; /* Distribuye logo y menú */
+    align-items: flex-start; /* Alinea los elementos arriba */
+    margin: 52px 35px 0 52px; /* Margen de 52px arriba, derecha e izquierda */
 }
+
 #nombre {
-    margin: 40px 40px 0px;
+    margin: 0 0 2px -1px; 
     color: black;
-    font-size: 36px;
+    font-size: 46.8px;
+
 }
+
 #cargo {
-    margin: 10px 40px;
     color: #777777;
-    font-size: 20px;
+    font-size: 26px;
+    margin: 0; /* Elimina márgenes adicionales */
+
+}
+
+.logo {
+    display: flex;
+    flex-direction: column; /* Nombre y cargo uno debajo del otro */
+}
+
+nav ul {
+    display: flex;
+    list-style: none; /* Sin viñetas */
+    margin: 0;
+    padding: 0;
 }
 
 nav ul li {
-    display: inline-block;
-    list-style: none;
-    padding: 10px;
-    font-size: 25px;
+    padding: 19px; /* Espaciado horizontal */
+    font-size: 23px;
     font-weight: bold;
 }
+
+nav ul li a {
+    color: black;
+}
+
+#menu {
+    position: relative; /* Alineación en relación al header */
+    top: 0; /* Ajusta verticalmente para que coincida con nombre */
+}
+
