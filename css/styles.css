@@ -2,7 +2,6 @@ header {
     font-family: 'Montserrat', sans-serif;
     display: flex; /* Alineación horizontal de elementos */
     justify-content: space-between; /* Distribuye logo y menú */
-    align-items: flex-start; /* Alinea los elementos arriba */
     margin: 52px 35px 0 52px; /* Margen de 52px arriba, derecha e izquierda */
 }
 
@@ -10,18 +9,15 @@ header {
     margin: 0 0 2px -1px; 
     color: black;
     font-size: 46.8px;
-
 }
 
 #cargo {
     color: #777777;
     font-size: 26px;
     margin: 0; /* Elimina márgenes adicionales */
-
 }
 
-.logo {
-    display: flex;
+#logo {
     flex-direction: column; /* Nombre y cargo uno debajo del otro */
 }
 
@@ -38,12 +34,8 @@ nav ul li {
     font-weight: bold;
 }
 
-nav ul li a {
+nav ul li a { /* a: enlace*/
     color: black;
 }
 
-#menu {
-    position: relative; /* Alineación en relación al header */
-    top: 0; /* Ajusta verticalmente para que coincida con nombre */
-}
 
