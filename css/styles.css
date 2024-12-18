@@ -30,12 +30,21 @@ nav ul {
 
 nav ul li {
     padding: 19px; /* Espaciado horizontal */
-    font-size: 23px;
+    font-size: 20.8px;
     font-weight: bold;
 }
 
 nav ul li a { /* a: enlace*/
     color: black;
+}
+
+#bio {
+    font-size: 19.5px;
+    margin: 65px 78px 0 78px;
+}
+
+p { /*Replicar esta fuente para todos los parrafos*/
+    font-family: 'Open Sans', sans-serif;
 }
 
 
