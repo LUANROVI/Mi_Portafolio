@@ -40,11 +40,52 @@ nav ul li a { /* a: enlace*/
 
 #bio {
     font-size: 19.5px;
-    margin: 65px 78px 0 78px;
+    margin-top: 65px;
 }
 
 p { /*Replicar esta fuente para todos los parrafos*/
     font-family: 'Open Sans', sans-serif;
 }
 
+.section {
+   margin: 0 78px 52px 78px;
+}
 
+/* Sección de Habilidades Técnicas */
+#habilidades-tecnicas {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+#habilidades-tecnicas h2 {
+    font-size: 31.2px;
+    margin-bottom: 39px;
+    color: black;
+}
+
+#skills-grid {
+    display: flex;
+    justify-content: space-between; /* Espaciado entre columnas */
+    margin: 0 auto;
+    max-width: 800px; /* Ancho máximo del contenedor */
+}
+
+.skills-column {
+    display: flex;
+    flex-direction: column; /* Alinea las habilidades en vertical */
+    align-items: center;
+    gap: 26px; /* Espaciado entre habilidades */
+}
+
+.skill-item {
+    background-color: #f0f0f0; /* Fondo gris */
+    color: #333333;
+    font-size: 19.5px;
+    padding: 5px 10.4px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+* {
+    box-sizing: border-box;
+}
